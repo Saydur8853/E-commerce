@@ -5,12 +5,13 @@ width: 80px;
 
 .navbar-container{
     background-color: #f3d9e4;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     
 }
 
 .container{
     margin-bottom: 100px;
+    
 }
 
 .carousel-bg{
@@ -23,6 +24,7 @@ width: 80px;
 
 }
 
+
 .price{
     color: #ff136f;
 }
@@ -33,4 +35,68 @@ color: #fceae8;
 border-radius: 8px;
 padding: 9px 25px;
 cursor: pointer;
+}
+
+.catagory1,.catagory2,.catagory3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.catagory1{
+    background-image: linear-gradient(to right, orange 0%, rgb(245, 184, 71) 100%);
+    color: #fceae8;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.catagory2{
+    background-image: linear-gradient(to right, orchid 0%, rgb(235, 155, 232) 100%);
+    color: #fceae8;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.catagory3{
+    background-image: linear-gradient(to right, blue 0%, rgb(92, 92, 245) 100%);
+    color: #fceae8;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.catagories h1, img{
+    color: white;
+    width: 100px;
+    
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+.subscribe-bg{
+    background-color: #f3d9e4;
+}
+#subscribe{
+    height: 300px;
+}
+
+#subscribe h6{
+    color: gray;
+}
+
+footer{
+    text-align: center;
+    color: aliceblue;
+    height: 50px;
+    background-color: #861d1d;
 }
